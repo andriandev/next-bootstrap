@@ -1,12 +1,14 @@
 function Footer() {
+  const currYear = new Date().getFullYear();
+
   return (
     <footer className="bg-light">
-      <p className="text-center text-muted my-3">
-        Copyright ©{new Date().getFullYear() + ' '}
+      <p className="text-center text-dark my-3">
+        {`Copyright ©${currYear} `}
         <a
           href="https://andriandev.my.id"
           target="_blank"
-          className="text-muted text-decoration-none"
+          className="text-dark text-decoration-none"
         >
           AndrianDev
         </a>

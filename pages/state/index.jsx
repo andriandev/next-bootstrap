@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import MetaHead from '@/components/shared/meta-head';
-import Button from '@/components/shared/button';
 
 function State() {
   const [number, setNumber] = useState(1);
@@ -17,12 +16,12 @@ function State() {
     <>
       <MetaHead title="State" description="Next bootstrap state" />
       <h1>State</h1>
-      <Button className="btn btn-primary btn-sm me-2" onClick={handleTambah}>
+      <button className="btn btn-primary btn-sm me-2" onClick={handleTambah}>
         Tambah 1
-      </Button>
-      <Button className="btn btn-primary btn-sm" onClick={handleKurang}>
+      </button>
+      <button className="btn btn-primary btn-sm" onClick={handleKurang}>
         Kurang 1
-      </Button>
+      </button>
       <p className="my-2">Number: {number}</p>
     </>
   );

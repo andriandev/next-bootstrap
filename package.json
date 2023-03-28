@@ -1,6 +1,6 @@
 {
-  "name": "next-app-manual",
-  "version": "0.2.0",
+  "name": "next-bootstrap",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^12.2.5",
+    "bootstrap": "^5.2.3",
+    "next": "^13.2.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.32.0"
   }
 }

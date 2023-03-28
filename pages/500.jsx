@@ -5,17 +5,17 @@ function NotFound() {
   return (
     <>
       <MetaHead
-        title="404 Page Not Found"
-        description="404 Page Not Found"
+        title="500 Internal Server Error"
+        description="500 Internal Server Error"
         index="noindex"
       />
       <div className="d-flex align-items-center justify-content-center mt-5">
         <div className="text-center">
-          <h1 className="display-1 fw-bold">404</h1>
+          <h1 className="display-1 fw-bold">500</h1>
           <p className="fs-3">
-            <span className="text-danger">Opps!</span> Page not found.
+            <span className="text-danger">Opps!</span> Internal Server Error.
           </p>
-          <p className="lead">The page you visited is not available.</p>
+          <p className="lead">The page you visited is error.</p>
           <Link href="/" className="btn btn-primary">
             Go Home
           </Link>
